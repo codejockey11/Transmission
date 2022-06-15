@@ -172,22 +172,3 @@ namespace Transmission
         }
     }
 }
-
-/*
- * https://purperformance.com/p-29669-rpm-calculator.html
- * 
- * // <![CDATA[
-var Pi = 3.14159;
-
-// RPM CALCULATOR
-function CalcRPM() {
-	var mph = $('#mph').val();
-	var tiredia = $('#tiredia').val();
-	var rgr = $('#rgr').val();
-	var tgr = $('#tgr').val();
-	var RPM = eval( Math.floor( ( (mph * rgr * tgr * 336.0) / tiredia ) * 100.0 + 0.5 ) / 100.0 );
-	$('#calculatedRPM').val(RPM);
-}
-// ]]>
-
-*/
